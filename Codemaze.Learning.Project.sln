@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Codemaze.Learning.Project", "Codemaze.Learning.Project\Codemaze.Learning.Project.csproj", "{B97206EB-0495-44A0-842C-8353883A78FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Default-Interface - 01", "Default-Interface\Default-Interface - 01.csproj", "{E9730EF5-E0FA-47F0-9D18-985E264B408B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B97206EB-0495-44A0-842C-8353883A78FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B97206EB-0495-44A0-842C-8353883A78FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B97206EB-0495-44A0-842C-8353883A78FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B97206EB-0495-44A0-842C-8353883A78FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9730EF5-E0FA-47F0-9D18-985E264B408B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9730EF5-E0FA-47F0-9D18-985E264B408B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9730EF5-E0FA-47F0-9D18-985E264B408B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9730EF5-E0FA-47F0-9D18-985E264B408B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {825D2E00-0CF1-4768-B97E-CD53BA7A5B87}
+	EndGlobalSection
+EndGlobal
