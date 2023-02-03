@@ -11,11 +11,11 @@ namespace EF_Core
         {
             this.context = context;
         }
-        public static async Task<bool> TestRawQuery()
+        public static async Task<bool> TestRawQuery(string cs)
         {
             const int employeeId = 888;
 
-            var context = new EmployeeDbContext("Data Source=MOHSIN\\SQLEXPRESS;Initial Catalog=Learning;User ID=sa;Password=Prompt@7788");
+            var context = new EmployeeDbContext(cs);
 
             var employee = await context.Employees
                               .FromSqlRaw("Select * from Employee where FirstName = 'FirstName - 999'")
